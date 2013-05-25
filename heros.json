@@ -1,0 +1,8 @@
+{
+  "heros" : [
+    { "name" : "Hermione Granger" },
+    { "name" : "Batman" },
+    { "name" : "Hercules" },
+    { "name" : "Lord Tywin Lannister" }
+  ]
+}
