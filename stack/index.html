@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+@import url(stack.css);
+
+.big {
+  font-size: 128px;
+}
+
+.caption {
+  font-size: 96px;
+  text-align: center;
+  text-shadow: 0px 2px 6px rgba(0,0,0,.5);
+}
+
+.acronym-jumble p {
+  display: inline-block;
+  padding: 20px;
+}
+
+.git-isnt-github {
+  background-color: #fff;
+  color: #999;
+  text-align: center;
+
+}
+
+.git-isnt-github img {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+}
+
+.git-isnt-github .neq {
+  display: inline-block;
+  font-size: 200px;
+  padding: 0 10px 30px 0;
+}
+
+.git-isnt-github .github-logo {
+  bottom: -75px;
+  position: relative;
+}
+
+.dvcs {
+  color: purple;
+}
+
+.cvcs {
+  color: yellow;
+}
+
+</style>
+<body class="overview">
+
+<section>
+  <h1 class="caption">dcjq[23]</h1>
+  <h2 class="caption">Git workshop</h2>
+</section>
+
+<section style="background:rgba(100,100,100,0.6) url(git-logo.png) no-repeat 50% 50%;">
+  <h1 class="caption">What is</h1>
+</section>
+
+<section>
+  <p>Distributed</p>
+  <p>Version</p>
+  <p>Control</p>
+  <p>System</p>
+</section>
+
+<section>
+  <h1>Distributed</h1>
+  <p>Things happen locally</p>
+</section>
+
+<section>
+  <h1>Version Control System</h1>
+  <h2><span class="cvcs">CVS</span>, <span class="cvcs">SVN</span>, <span class="dvcs">Mercurial</span>, <span class="dvcs">Bazaar</span></h2>
+</section>
+
+<section class="git-isnt-github">
+  <img src="git-logo.png">
+  <span class="neq">≠</span>
+  <img class="github-logo" src="github-logo.jpg">
+</section>
+
+
+<section>
+  <h1>Why use git?</h1>
+  <p>Speed</p>
+  <p>jQuery (and pretty much everyone else) uses it</p>
+  <p>github</p>
+</section>
+
+<section>
+  <h1>What sets git apart?</h1>
+  <ul>
+    <li>local changes (distributed)</li>
+    <li>easy branching</li>
+    <li>staging area</li>
+    <li>atomic commits</li>
+  </ul>
+</section>
+
+
+<!-- comment this out if no one uses SVN -->
+<section>
+  <h1>Git vs SVN - Commands</h1>
+
+  <p>svn checkout = git clone</p>
+  <p>svn update = git pull</p>
+  <p>svn commit = git commit + git push</p>
+  <p>...</p>
+</section>
+<section>
+  <p>git checkout = svn revert</p>
+
+  <p><a href="http://git.or.cz/course/svn.html">More info</p>
+</section>
+<!-- end commented section -->
+
+
+<section>
+  <h1>Demo time!</h1>
+</section>
+<!--
+
+  git congf
+
+
+-->
+
+<script src="d3.v3.min.js"></script>
+<script src="stack.v0.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
