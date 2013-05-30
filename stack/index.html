@@ -63,22 +63,21 @@
   color: #bada55;
 }
 
-ul.comma-sep li:nth-child(odd) {
-  color: #bada55;
-}
-
-ul.comma-sep li
-
-ul.comma-sep li {
+.comma-sep li {
   list-style: none;
   display: inline-block;
 }
 
-ul.comma-sep li.comma-sep:after {
+.comma-sep li:nth-child(odd) {
+  color: #bada55;
+}
+
+
+.comma-sep li:after {
   content: ", ";
 }
 
-ul.comma-sep li:last-child:after {
+.comma-sep li:last-child:after {
   content:"";
 }
 
