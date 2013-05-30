@@ -63,6 +63,25 @@
   color: #bada55;
 }
 
+ul.comma-sep li:nth-child(odd) {
+  color: #bada55;
+}
+
+ul.comma-sep li
+
+ul.comma-sep li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.comma-sep li.comma-sep:after {
+  content: ", ";
+}
+
+ul.comma-sep li:last-child:after {
+  content:"";
+}
+
 </style>
 <body class="overview">
 
@@ -73,9 +92,9 @@
 
 <section>
   <h1 class='caption'>Announcements</h1>
-  <p>OSS BBQ</p>
-  <p>dcjq[24] Stativus</p>
-  <p>dcjq[25] Joint meeteup with node.dc</p>
+  <p><a href="http://www.meetup.com/DC-jQuery-Users-Group/events/122076582/">OSS BBQ</a> - 6/18/2013 - Fathom</p>
+  <p><a href="http://www.meetup.com/DC-jQuery-Users-Group/events/115565862/">dcjq[24] Stativus</a> - 7/25/2013 - Location TBD</p>
+  <p><a href="http://www.meetup.com/DC-jQuery-Users-Group/events/122080602/">dcjq[25] Joint meetup with node.dc</a> - 8/22/2013 - Location TBD</p>
 </section>
 
 <section style="background:rgba(100,100,100,0.6) url(git-logo.png) no-repeat 50% 50%;">
@@ -149,20 +168,66 @@
   <p class="sha">6c459e797769ab19c34dc5f9e37af760ff194d69</p>
 </section>
 
+<section class="git terms">
+  <h2>git terms</h2>
+  <ul class="comma-sep">
+    <li>clone</li>
+    <li>add</li>
+    <li>status</li>
+    <li>commit</li>
+    <li>log</li>
+    <li>branch</li>
+    <li>checkout</li>
+    <li>push</li>
+    <li>pull</li>
+    <li>merge</li>
+  </ul>
+</section>
+
+<section class="github terms">
+  <h2>github terms</h2>
+  <ul class="comma-sep">
+    <li>fork</li>
+    <li>pull</li>
+    <li>request</li>
+    <li>star</li>
+  </ul>
+</section>
+
 <section>
   <h1>Demo time!</h1>
 </section>
+
 <!--
 
-  git config --global user
-
+  git config --global user.name "Greg Lavallee"
+  git conifg --global user.email "greglavallee@gmail.com"
 
 -->
+
+<section>
+  <h1>Workshop time!</h1>
+</section>
+
+
+
 <section>
   <h3>Reference</h3>
   <a href="http://git-scm.com/book">Pro Git Book</a>
   <a href="http://help.github.com">Github help pages</a>
 </section>
+
+
+
+<section>
+  <h1>Tips and Tricks</h1>
+  <ul>
+    <li><a href="http://git-scm.com/book/en/Git-Basics-Tips-and-Tricks">git CLI completion</a></li>
+    <li><a href="https://twitter.com/mathias">@mathias</a>' <a href="https://github.com/mathiasbynens/dotfiles">dotfiles on github</a>, particularly <a href="https://github.com/mathiasbynens/dotfiles/blob/master/.gitconfig">.gitconfig</a>
+
+</section>
+
+
 
 <script src="d3.v3.min.js"></script>
 <script src="stack.v0.js"></script>
