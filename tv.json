@@ -1,11 +1,13 @@
 {
   "tv" : [
+    {"title": "Breaking Bad"},
     {"title": "Mad Men"},
     {"title": "The Walking Dead"},
     {"title": "Fifty Shades of Greg"},
     {"title": "Hercules: The Legendary Journeys"},
     {"title": "Game of Thrones"},
-    {"title": "Shameless"},
-	{"title": "Fawlty Towers"}
+    {"title": "Quantum Leap"},
+    {"title": "Fawlty Towers"},
+    {"title": "Shameless"}    
   ]
 }
